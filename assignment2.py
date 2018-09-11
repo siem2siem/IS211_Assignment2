@@ -13,7 +13,14 @@ def main():
     """This is the main function where the assignment2 will use
 	the following url as data.
     https://s3.amazonaws.com/cuny-is211-spring2015/birthdays100.csv
-	"""
+	This week's assignment is very challenging as I am using ananconda
+    with spyder at version 2.7 and Ananconda python prompt at 3.6.3.
+    Both versions supports different syntax.  Had did some extensive
+    researching online to sort out all the different errors from
+    print statements to urllib2 not supported in Python 3.6.3 which 
+    resolves to from urllib.request import urlopen if running urllib
+    in python 3.6.3.
+    """
     def downloadData(url):
         """A function to download the contents located at the url and return
 		to the caller.
